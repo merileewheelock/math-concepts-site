@@ -1,0 +1,18 @@
+/* line 1, ../../compass/sass/_subjects.scss */
+.subject {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 50px 0;
+  background-color: lightgray;
+}
+
+/* line 9, ../../compass/sass/_subjects.scss */
+.subject:hover {
+  background-color: palegreen;
+}
+
+/* line 4, ../../compass/sass/styles.scss */
+h1 {
+  color: seagreen;
+}
