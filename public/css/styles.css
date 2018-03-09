@@ -4,15 +4,22 @@
   border-radius: 10px;
   margin-top: 30px;
   padding: 50px 0;
-  background-color: lightgray;
+  background-color: ghostwhite;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
 }
 
-/* line 9, ../../compass/sass/_subjects.scss */
+/* line 11, ../../compass/sass/_subjects.scss */
 .subject:hover {
   background-color: palegreen;
 }
 
 /* line 4, ../../compass/sass/styles.scss */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 8, ../../compass/sass/styles.scss */
 h1 {
-  color: seagreen;
+  font-family: 'Comfortaa', cursive;
 }
