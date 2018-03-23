@@ -17,7 +17,7 @@
 
 /* line 11, ../../compass/sass/_subjects.scss */
 .subject:hover {
-  background-color: white;
+  background-color: lightyellow;
 }
 
 /* line 5, ../../compass/sass/styles.scss */
@@ -26,6 +26,11 @@
 }
 
 /* line 9, ../../compass/sass/styles.scss */
+body {
+  background-color: lightblue;
+}
+
+/* line 13, ../../compass/sass/styles.scss */
 .header-main {
   font-family: 'Comfortaa', cursive;
   margin-top: 50px;
