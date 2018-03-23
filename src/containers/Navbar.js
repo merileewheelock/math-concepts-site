@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class Navbar extends Component{
 	render(){
@@ -6,12 +7,12 @@ class Navbar extends Component{
 			<nav className="navbar navbar-default">
 				<div className="container-fluid">
 					<div className="navbar-header">
-						<div className="navbar-brand">Home</div>
+						<div className="navbar-brand"><Link to="/">Home</Link></div>
 					</div>
-					<div className="nav-subject">Algebra 1</div>
-					<div className="nav-subject">Geometry</div>
-					<div className="nav-subject">Algebra 2</div>
-					<div className="nav-subject">Precalculus & Calculus</div>
+					<div className="nav-subject"><Link to="/algebra">Algebra 1</Link></div>
+					<div className="nav-subject"><Link to="/geometry">Geometry</Link></div>
+					<div className="nav-subject"><Link to="/algebra2">Algebra 2</Link></div>
+					<div className="nav-subject"><Link to="/calculus">Precalculus & Calculus</Link></div>
 				</div>
 			</nav>
 		)
