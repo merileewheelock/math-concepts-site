@@ -35,3 +35,13 @@ body {
   font-family: 'Comfortaa', cursive;
   margin-top: 50px;
 }
+
+/* line 18, ../../compass/sass/styles.scss */
+a {
+  color: gray;
+}
+
+/* line 22, ../../compass/sass/styles.scss */
+a:hover {
+  text-decoration: none;
+}
