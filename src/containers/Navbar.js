@@ -9,7 +9,7 @@ class Navbar extends Component{
 					<div className="navbar-header">
 						<div className="nav-home navbar-brand"><Link to="/">Home</Link></div>
 					</div>
-					<div className="nav-subject"><Link to="/algebra">Algebra 1</Link></div>
+					<div className="nav-subject"><Link to="/algebra1">Algebra 1</Link></div>
 					<div className="nav-subject"><Link to="/geometry">Geometry</Link></div>
 					<div className="nav-subject"><Link to="/algebra2">Algebra 2</Link></div>
 					<div className="nav-subject"><Link to="/calculus">Precalculus & Calculus</Link></div>

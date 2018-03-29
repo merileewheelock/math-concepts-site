@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Algebra extends Component{
+class Algebra1 extends Component{
 	render(){
 		return(
 			<div>
-				<h2>Algebra</h2>
+				<h2>Algebra 1</h2>
 			</div>
 		)
 	}
 }
 
-export default Algebra;
+export default Algebra1;

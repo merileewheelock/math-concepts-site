@@ -6,7 +6,7 @@ class Subject extends Component {
 		return(
 			<div className="row">
 				<div className="col-md-4 offset-md-1 col-sm-10 offset-sm-1">
-					<Link to="/algebra">
+					<Link to="/algebra1">
 						<div className="subject text-center">
 							Algebra 1
 						</div>
