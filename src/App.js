@@ -15,7 +15,6 @@ class App extends Component {
                 <div className="App">
                     <Navbar />
                     <div className="container">
-                        <h1 className="header-main text-center">Math Concepts</h1>
                         <Route exact path="/" component={Subjects} />
                         <Route exact path="/algebra1" component={Algebra1} />
                         <Route exact path="/geometry" component={Geometry} />

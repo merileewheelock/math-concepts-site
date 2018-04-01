@@ -4,7 +4,7 @@ class Algebra2 extends Component{
 	render(){
 		return(
 			<div>
-				<h2>Algebra 2</h2>
+				<h2 className="subject-header text-center">Algebra 2</h2>
 			</div>
 		)
 	}

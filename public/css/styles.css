@@ -45,3 +45,8 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+/* line 26, ../../compass/sass/styles.scss */
+.subject-header {
+  margin-top: 30px;
+}

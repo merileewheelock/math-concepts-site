@@ -4,7 +4,7 @@ class Geometry extends Component{
 	render(){
 		return(
 			<div>
-				<h2>Geometry</h2>
+				<h2 className="subject-header text-center">Geometry</h2>
 			</div>
 		)
 	}
